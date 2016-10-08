@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>
+			New User Registration - My Chitt Management.
+		</title>
+		<link rel="stylesheet" type="text/css" href="C:\Users\vijender\Desktop\Vijay\My Chitt Management/styles.css" >
+	</head>
+	<body>
+		<h1 style="padding:10px;margin-left:400px;font-size:50; color:#58D68D"><i><ins>My Chittmanagement</ins></i></h1>
+		<form id="formLogin">
+		<hr>
+		<a href="Login.html" class="a-as-button" style="border-top:none;">Sign-In</a>
+		<br>
+		<div id="divRegister"style=""> 
+			<label>First Name:</label><input type="text" id="NRiFirstname" placeholder="First name" class="input-left" tabindex="1" required></input>
+			<label class="label-right">User Name:</label><input type="text" id="NRiUsername" placeholder="Username" class="input-right" tabindex="5" required></input>
+			<br>
+			<br>
+			<label>Middle Name:</label><input type="text" id="NRiMiddlename" placeholder="Middle name" class="input-left" tabindex="2"></input>
+			<label class="label-right">Password:</label><input type="password" id="NRiPassword" placeholder="Password"class="input-right" tabindex="6" required></input>
+			<br>
+			<br>
+			<label>Last Name:</label><input type="text" id="NRiLastname"  placeholder="Last name" class="input-left" tabindex="3" required></input>
+			<label class="label-right" >Confirm password:</label><input type="password" id="NRiConfirmpassword" placeholder="Re-Enter Password" class="input-right" tabindex="7" required></input>
+			<br>
+			<br>
+			<label>Date Of Birth:</label><input type="date" id="Dateofbirth" class="input-left" style="color:#C7C7CD;width:182px;" tabindex="4" onchange="changeColor()" required></input>
+			<label class="label-right" >Phone Number:</label><input type="tel" id="NRiPhone" placeholder="Phone Number" class="input-right" tabindex="8"></input>
+			<br>
+			<br>
+			<label class="label-right" >Email:</label><input type="email" id="NRiEmail" placeholder="ex:john123@gmail.com" class="input-right" tabindex="9"></input>
+			<br>
+			<br>
+			<br>
+			<button name="clearButton" id="NRbClear" style="margin-left:250px;" tabindex="10" class="button-style">Clear</button>
+			<button name="Register" id="NRbRegister" style="margin-left:50px;" tabindex="11" class="button-style">Submit</button>
+			
+		</div>
+		</form>
+		<script src="script.js"></script>
+	</body>
+</html>
